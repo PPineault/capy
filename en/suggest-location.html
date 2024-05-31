@@ -55,11 +55,54 @@ juillet 2023
                 </figcaption>
             </figure>
         </div>
-        <section id="formulaire">
+        <div id="formulaire">
+            <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+                <p>
+                    <label for="titre" class="label">Title</label>
+                    <input type="text" name="titre" size="72" id="titre" required>
+                </p>
+                <p>
+                    <label for="accroche"> Catchphrase </label>
+                    <textarea name="accroche" id="accroche" cols="72" rows="3" required></textarea>
+                </p>
+                <p>
+                    <label for="description"> Description </label>
+                    <textarea name="description" id="description" cols="72" rows="10" required></textarea>
+                </p>
+                <p>
+                    <label for="image" class="label">Image</label>
+                    <input type="file" name="image" id="image" capture="environment" accept="image/*" class="type-file">
+
+                </p>
+                <p>
+                    <!--  clip snore android sauf cell samsung télécharger dictaphone(une bonne application pas tout fonctionne) et mettre 
+                capture="user" parce que juste capture comme sur différent siteweb ça fais une erreur HTML  -->
+                    <label for="clip-sonore" class="label"> Sound clips </label>
+
+                    <input type="file" name="clip-sonore" id="clip-sonore" capture="user" accept="audio/*"
+                        class="type-file">
+                </p>
+                <p>
+                    <label for="langue" class=" label">Language</label>
+                    <select name="langue" id="langue" class="type-file" required>
+                        <option value="" selected="selected"> Choose a language </option>
+                        <option value="fr"> French</option>
+                        <option value="en"> English</option>
 
 
-            <h3> Form coming soon </h3>
-        </section>
+                    </select>
+                </p>
+                <p>
+                    <label for="courriel" class=" label">E-mail</label>
+                    <input type="email" name="courriel" id="courriel" required>
+                </p>
+                <p>
+                    <input type="submit" value="Submit" class="bouton-form-envoyer">
+                    <input type="reset" value="Reset" class="bouton-form-effacer">
+                </p>
+            </form>
+
+        </div>
     </main>
 
     <footer>
