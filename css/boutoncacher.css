@@ -1,0 +1,127 @@
+:root{
+    --main-color: #436e2a;
+    --secondary-color: #c6b38d;
+    --third-color: #b45c1c;
+    --fourth-color: #4c3464;
+    --five-color: #2a366c;
+  }
+  /*  fr        */
+  #morezoo{
+    display: none;
+  }
+  #moreaqua{
+    display: none;
+  }
+  #moreart{
+    display: none;
+  }
+  #Btnzoo{
+    text-decoration: none;
+    border: 0.4rem solid #302e2d;
+    width: 100%;
+    background-color: #f1d4ba;
+    transition: all 0.5s ease;
+    color: #453e14;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.25rem;
+  }
+  #Btnzoo:hover,
+  #Btnzoo:focus{
+    background: var(--third-color);
+    color: #2a366c;
+  }
+  #Btnaqua{
+    text-decoration: none;
+    border: 0.4rem solid #302e2d;
+    width: 100%;
+    background-color: #f1d4ba;
+    transition: all 0.5s ease;
+    color: #453e14;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.25rem;
+  }
+  #Btnaqua:hover,
+  #Btnaqua:focus{
+    background: var(--third-color);
+    color: #2a366c;
+  }
+  #Btnart{
+    text-decoration: none;
+    border: 0.4rem solid #302e2d;
+    width: 100%;
+    background-color: #f1d4ba;
+    transition: all 0.5s ease;
+    color: #453e14;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.25rem;
+  }
+  #Btnart:hover,
+  #Btnart:focus{
+    background: var(--third-color);
+    color: #2a366c;
+  }
+  /*  EN          */
+  #morezooen{
+    display: none;
+  }
+  #Btnzooen{
+    text-decoration: none;
+    border: 0.4rem solid #302e2d;
+    width: 100%;
+    background-color: #f1d4ba;
+    transition: all 0.5s ease;
+    color: #453e14;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.25rem;
+  }
+  #Btnzooen:hover,
+  #Btnzooen:focus{
+    background: var(--third-color);
+    color: #2a366c;
+  }
+  #moreaquaen{
+    display: none;
+  }
+  #Btnaquaen{
+    text-decoration: none;
+    border: 0.4rem solid #302e2d;
+    width: 100%;
+    background-color: #f1d4ba;
+    transition: all 0.5s ease;
+    color: #453e14;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.25rem;
+  }
+  #Btnaquaen:hover,
+  #Btnaquaen:focus{
+    background: var(--third-color);
+    color: #2a366c;
+  }
+  #morearten{
+    display: none;
+  }
+  #Btnarten{
+    text-decoration: none;
+    border: 0.4rem solid #302e2d;
+    width: 100%;
+    background-color: #f1d4ba;
+    transition: all 0.5s ease;
+    color: #453e14;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 0.25rem;
+  }
+  #Btnarten:hover,
+  #Btnarten:focus{
+    background: var(--third-color);
+    color: #2a366c;
+  }
+
+
+ 
+  

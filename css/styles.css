@@ -1,0 +1,1127 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Martel&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #436e2a;
+  --secondary-color: #c6b38d;
+  --third-color: #b45c1c;
+  --fourth-color: #4c3464;
+  --five-color: #2a366c;
+}
+html {
+  background-color: #a49cc4;
+  font: 400 100%/150% "Roboto", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+/* les en-têtes               */
+header {
+  background-color: #2a366c;
+  color: var(--secondary-color);
+
+  width: 600em;
+  margin-top: 2rem;
+  border: 0.63em darkblue solid;
+  border-radius: 15%;
+  position: absolute;
+}
+header img {
+  border-radius: 100%;
+  height: auto;
+  max-width: 2.7rem;
+  position: relative;
+  bottom: 2.3rem;
+}
+header h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+header .message-accueil-fr {
+  position: relative;
+
+  top: -1rem;
+}
+header .message-accueil-en {
+  display: block;
+  position: relative;
+  top: -0.5rem;
+}
+header .ville-capy {
+  width: 0.5%;
+  position: relative;
+  top: 12rem;
+}
+header .ville-capy-en {
+  width: 0.5%;
+  position: relative;
+  top: 11rem;
+}
+header .points-interets {
+  width: 1%;
+  position: relative;
+  top: -15rem;
+  background-color: #2a366c;
+}
+header .ville-capy-about {
+  width: 1%;
+}
+header .ville-capy-sug {
+  width: 1%;
+}
+header .suggerer-lieufr {
+  width: 1%;
+}
+header .suggerer-lieuen {
+  width: 1%;
+}
+
+header .slogan-fr {
+  position: relative;
+  top: -1.5rem;
+  width: 3%;
+}
+header .slogan-fr-point {
+  width: 1%;
+  font-size: 1.1em;
+}
+header .slogan-fr-sug {
+  width: 1%;
+  font-size: 1.1em;
+}
+header .slogan-en-point {
+  width: 1%;
+  font-size: 1.1em;
+}
+header .slogan-en {
+  position: relative;
+  top: -2rem;
+  text-align: left;
+}
+header .slogan-fr-apropos {
+  width: 1%;
+  font-size: 1.1em;
+}
+header .slogan-en-apropos {
+  width: 1%;
+  font-size: 1.1em;
+}
+/* menu navigation fr et en             */
+
+nav {
+  background: #2a366c;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  background: rgba(0, 0, 0, 0);
+  transition: all 0.5s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background: var(--third-color);
+  color: #2a366c;
+}
+nav li li a {
+  padding: 0.5rem 2rem;
+}
+
+nav > ul > li > a {
+  border-bottom: 0.063rem solid rgba(255, 255, 255, 0.3);
+}
+
+nav > ul > li:nth-child(3) > a {
+  border-bottom: none;
+}
+nav > ul > li:nth-child(4) > a {
+  border-top: 0.063rem solid rgba(255, 255, 255, 0.3);
+}
+
+/* le contenu page accueil            */
+#contenu {
+  background-color: #c6b38d;
+  border: 0.5rem #302e2d solid;
+  border-top: 0.5rem solid;
+  width: 25%;
+
+  height: 60rem;
+
+  position: fixed;
+  top: 20rem;
+}
+#contenu h2 {
+  font-size: 0.8em;
+}
+#contenu .ville-capy-fr {
+  text-align: left;
+
+  color: var(--main-color);
+}
+#contenu .ville-capy-en {
+  display: block;
+  text-align: left;
+
+  color: var(--main-color);
+}
+#contenu .fr-lang {
+  color: var(--main-color);
+  position: relative;
+  bottom: -1rem;
+  left: 1rem;
+  text-decoration: none;
+  border: 0.01rem solid #302e2d;
+  background-color: #f1d4ba;
+  transition: all 0.5s ease;
+}
+#contenu .en-lang {
+  display: block;
+  color: var(--main-color);
+  position: relative;
+  left: 1rem;
+  bottom: -10rem;
+  text-decoration: none;
+}
+#contenu .en2 {
+  border: 0.01rem solid #302e2d;
+  background-color: #f1d4ba;
+  transition: all 0.5s ease;
+}
+#contenu .en2:hover,
+#contenu .en2:focus {
+  background: var(--third-color);
+  color: #2a366c;
+}
+#contenu .fr-lang:hover,
+#contenu .fr-lang:focus {
+  background: var(--third-color);
+  color: #2a366c;
+}
+#contenu img {
+  max-width: 10.5rem;
+  max-height: 10.5rem;
+  position: relative;
+  right: -0.7rem;
+}
+#contenu figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+
+  flex-flow: column;
+  padding: 1rem;
+  max-width: 10.5rem;
+  margin: auto;
+  position: relative;
+  right: 2rem;
+}
+#contenu figcaption {
+  font-size: 0.5rem;
+}
+/* carrousel       */
+#carrousel-interet {
+  display: block;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+  height: auto;
+  position: absolute;
+  top: 70rem;
+  width: 100%;
+  border: #6c3416 0.5rem solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+#carrousel-interet a:link {
+  text-decoration: none;
+}
+#carrousel-interet .p-desc {
+  font-family: "Martel", serif;
+}
+
+#carrousel-interet .mejs__container {
+  left: 1%;
+}
+
+#bouton-nav {
+  background-color: var(--secondary-color);
+  position: absolute;
+  top: 65rem;
+  width: 100%;
+  height: 5rem;
+  border: #6c3416 0.5rem solid;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+#bouton-nav .boutonp {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  background-color: var(--fourth-color);
+  border-radius: 100%;
+  border: #6c3416 solid 0.02rem;
+  transition: all 0.5s ease;
+}
+#bouton-nav .boutonp:hover,
+#bouton-nav .boutonp:focus {
+  background: var(--third-color);
+  color: #2a366c;
+}
+#bouton-nav .boutons {
+  position: absolute;
+  top: 0.5rem;
+  left: 15rem;
+  font-size: 3rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  background-color: var(--fourth-color);
+  border-radius: 100%;
+  border: #6c3416 solid 0.02rem;
+  transition: all 0.5s ease;
+}
+#bouton-nav .boutons:hover,
+#bouton-nav .boutons:focus {
+  background: var(--third-color);
+  color: #2a366c;
+}
+#carrousel-interet .item {
+  width: 100%;
+  height: 100rem;
+  border-top: 0.25rem #97908f solid;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 1rem;
+}
+#carrousel-interet .item img {
+  width: 80%;
+  height: auto;
+  border-radius: 100%;
+  border: 0.2rem solid #b46c2c;
+}
+#carrousel-interet .item figcaption {
+  font-size: 0.5rem;
+}
+
+#carrousel-interet .item p {
+  width: 95%;
+}
+#carrousel-interet .item h4 {
+  position: relative;
+  top: 1rem;
+}
+
+/*page a propos */
+#boite-about {
+  display: block;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+
+  height: 400rem;
+  position: absolute;
+  top: 40rem;
+  width: 100%;
+  border: #eae5a6 0.5rem solid;
+  border-top-left-radius: 4.125rem;
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 31.25rem;
+  border-bottom-left-radius: 4.313rem;
+}
+#boite-about h3,
+h4 {
+  font-family: "Roboto Mono", monospace;
+}
+#boite-about .image-deco {
+  width: 30%;
+  height: auto;
+  position: relative;
+  top: 1rem;
+  right: 2rem;
+}
+#boite-about figcaption {
+  display: block;
+  font-size: 0.5rem;
+  position: relative;
+  top: 1.1rem;
+  font-family: "Lobster Two", cursive;
+}
+#boite-about p,
+#boite-about .p6 {
+  display: block;
+  font-family: "Lumanosimo", cursive;
+}
+#boite-about .image-face {
+  border-radius: 100%;
+  width: 80%;
+  height: auto;
+  border: #b58a8a 0.4rem solid;
+}
+#boite-about .mon-nom {
+  font-family: "Borel", cursive;
+}
+#boite-about .p1 {
+  display: block;
+  border-bottom: #302e2d 0.001rem solid;
+  border-top: #302e2d 0.001rem solid;
+  color: #6c3416;
+  position: relative;
+  bottom: -20rem;
+  background-color: #f8ecd3;
+}
+
+#boite-about .p2 {
+  display: block;
+  color: #2a366c;
+  border-bottom: #302e2d 0.001rem solid;
+  border-top: #302e2d 0.001rem solid;
+  position: relative;
+  bottom: -30rem;
+  background-color: #f1d4ba;
+}
+#boite-about .p3 {
+  display: block;
+  color: #2a366c;
+  border-bottom: #302e2d 0.001rem solid;
+  border-top: #302e2d 0.001rem solid;
+  position: relative;
+  bottom: -40rem;
+  background-color: #e8e9ed;
+}
+#boite-about .p4 {
+  display: block;
+  color: var(--fourth-color);
+  border-bottom: #302e2d 0.001rem solid;
+  border-top: #302e2d 0.001rem solid;
+  position: relative;
+  bottom: -50rem;
+  background-color: #e0e3e6;
+}
+#boite-about .p5 {
+  display: block;
+  color: #453e14;
+  border-bottom: #302e2d 0.001rem solid;
+  border-top: #302e2d 0.001rem solid;
+  position: relative;
+  bottom: -60rem;
+  background-color: #eee7d1;
+}
+#boite-about .liste .l1 {
+  display: block;
+  list-style: none;
+}
+#boite-about .p6 {
+  display: block;
+  color: var(--fourth-color);
+  border-bottom: #302e2d 0.001rem solid;
+  border-top: #302e2d 0.001rem solid;
+  position: relative;
+  bottom: -70rem;
+  background-color: #f1d4ba;
+}
+/*  la page suggerer un lieu      */
+#page-form #deco-avant-form {
+  display: block;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+
+  height: 150rem;
+  position: absolute;
+  top: 39rem;
+  width: 100%;
+  border: #302e2d 0.5rem solid;
+  border-top-left-radius: 4.125rem;
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 31.25rem;
+  border-bottom-left-radius: 4.313rem;
+}
+#page-form #deco-avant-form img {
+  border-radius: 100%;
+  width: 100%;
+  position: relative;
+  bottom: -30rem;
+}
+#page-form #deco-avant-form figcaption {
+  position: relative;
+  bottom: -30.9rem;
+}
+#page-form #formulaire {
+  width: 100%;
+  position: absolute;
+  top: 200rem;
+  border: #b03a2e solid;
+  background-color: var(--secondary-color);
+  height: 75rem;
+}
+#page-form form label {
+  display: block;
+  color: var(--main-color);
+}
+#page-form form textarea,
+#page-form form #titre,
+#page-form form #courriel {
+  border: #2a366c solid 0.1rem;
+}
+#page-form form input,
+#page-form form textarea,
+#page-form select {
+  width: 100%;
+}
+#page-form .bouton-form-envoyer,
+#page-form .bouton-form-effacer {
+  border: var(--main-color) solid 0.2rem;
+  background-color: #f1d4ba;
+  transition: all 0.5s ease;
+  width: 30%;
+}
+#page-form .bouton-form-envoyer:focus,
+#page-form .bouton-form-envoyer:hover,
+#page-form .bouton-form-effacer:focus,
+#page-form .bouton-form-effacer:hover {
+  background: var(--third-color);
+  color: #2a366c;
+}
+#page-form .bouton-form-effacer {
+  display: block;
+  position: relative;
+  bottom: -3rem;
+}
+#page-form .required:after {
+  content: "*";
+  color: red;
+  margin-left: 0.5rem;
+}
+#page-form .type-file {
+  background-color: #eaecee;
+  border: #9da9d6 solid;
+  color: #49350a;
+}
+
+/*  le pied de page       */
+footer {
+  background-color: #302e2d;
+  color: var(--secondary-color);
+  position: absolute;
+  bottom: -450rem;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100vw;
+  padding-top: 2.5rem;
+  font-size: 0.7rem;
+}
+/*   bouton footer       */
+footer a:link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  border: 0.01rem solid #c6b38d;
+  background-color: var(--fourth-color);
+  transition: all 0.5s ease;
+  font-size: 1.5rem;
+}
+footer a:hover,
+footer a:focus {
+  background: var(--third-color);
+  color: var(--five-color);
+}
+@media screen and (min-width: 400px) {
+  #bouton-nav .boutons {
+    left: 20rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    border-radius: 30%;
+  }
+  header img {
+    max-width: 30rem;
+    bottom: -5.3rem;
+  }
+  header .message-accueil-fr {
+    left: 20rem;
+  }
+  header .message-accueil-en {
+    left: 28rem;
+  }
+  header .ville-capy {
+    width: 100%;
+    left: 13rem;
+    top: 0.5rem;
+  }
+  header .ville-capy-en {
+    width: 100%;
+    left: 13rem;
+    top: 0.5rem;
+  }
+  header .ville-capy-about {
+    width: 100%;
+    position: relative;
+    left: 9.9rem;
+  }
+  header .ville-capy-sug {
+    width: 100%;
+    position: relative;
+    left: 9.9rem;
+  }
+  header .suggerer-lieufr {
+    width: 100%;
+    position: relative;
+    left: 30rem;
+  }
+  header .suggerer-lieuen {
+    width: 100%;
+    position: relative;
+    left: 35rem;
+  }
+
+  header .points-interets {
+    width: 100%;
+    top: 0.3rem;
+  }
+  header .slogan-fr {
+    top: -7rem;
+    left: 10.5rem;
+  }
+  header .slogan-fr-point {
+    width: 100%;
+    position: relative;
+    left: 8rem;
+  }
+  header .slogan-fr-apropos {
+    position: relative;
+    left: 10rem;
+    top: -6rem;
+    width: 100%;
+  }
+  header .slogan-en-apropos {
+    position: relative;
+    left: 10rem;
+    top: -5rem;
+    width: 100%;
+  }
+  header .slogan-fr-sug {
+    width: 100%;
+    position: relative;
+    left: 9.5rem;
+  }
+  header .a-propos {
+    position: relative;
+    left: 30rem;
+  }
+
+  header .slogan-en-point {
+    width: 100%;
+    position: relative;
+    left: 8rem;
+  }
+  header .slogan-en {
+    position: relative;
+    top: -6rem;
+    left: 9.5rem;
+    display: block;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+  nav > ul > li:last-of-type {
+    margin-left: 3.1%;
+  }
+  nav ul ul {
+    display: none;
+  }
+  nav > ul > li > a,
+  nav > ul > li:nth-child(3) > a {
+    border-top: none;
+    border-bottom: none;
+    border-right: 0.063rem solid rgba(255, 255, 255, 0.3);
+  }
+  nav > ul > li:nth-child(4) > a {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  nav > ul > li > a {
+    border-left: 0.063rem solid rgba(255, 255, 255, 0.3);
+  }
+  nav > ul > li:first-of-type > a {
+    border: none;
+  }
+  #contenu {
+    display: block;
+    border-bottom: none;
+    border-top: none;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 25rem;
+  }
+  #contenu .ville-capy-fr {
+    display: block;
+    text-align: center;
+  }
+  #contenu .ville-capy-en {
+    display: block;
+    text-align: center;
+  }
+  #contenu .fr-lang {
+    bottom: -1rem;
+    left: 2rem;
+  }
+  #contenu .en-lang {
+    display: block;
+    bottom: 1rem;
+    left: 42rem;
+  }
+  #contenu img {
+    max-width: 70rem;
+    max-height: 90rem;
+    left: 6rem;
+  }
+  #contenu figure {
+    border: none;
+    max-width: 70rem;
+    display: block;
+    left: 6rem;
+  }
+  #contenu figcaption {
+    font-size: 0.9rem;
+    position: relative;
+    left: 10rem;
+  }
+  /* carrousel 768px*/
+  #carrousel-interet .item h3,
+  #carrousel-interet .item h4 {
+    text-align: center;
+  }
+  #carrousel-interet .item figcaption {
+    font-size: 0.9rem;
+  }
+  #bouton-nav .boutons {
+    left: 44rem;
+  }
+
+  /* a-propos 768px*/
+  #boite-about figcaption {
+    font-size: 0.9rem;
+  }
+  #boite-about .image-deco {
+    width: 35%;
+  }
+  #boite-about h3,
+  h4 {
+    margin-left: 4rem;
+    padding: 2rem;
+  }
+  #boite-about h4 {
+    position: relative;
+    top: 1rem;
+  }
+
+  /*page formulaire 768px*/
+  #page-form form input,
+  #page-form form textarea,
+  #page-form select {
+    position: relative;
+    left: 0.1rem;
+  }
+  #page-form form input,
+  #page-form form select {
+    width: 50%;
+    left: 8rem;
+  }
+  #page-form form .label {
+    left: 8rem;
+  }
+
+  #page-form form label {
+    position: relative;
+    left: 0.1rem;
+  }
+  #page-form .bouton-form-envoyer,
+  #page-form .bouton-form-effacer {
+    width: 20%;
+  }
+  #page-form .bouton-form-effacer {
+    position: relative;
+    bottom: 1.6rem;
+    left: 38rem;
+  }
+  #page-form .bouton-form-envoyer {
+    position: relative;
+
+    left: 1rem;
+  }
+  footer {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  nav > ul > li:last-of-type {
+    margin-left: 3.4%;
+  }
+}
+@media screen and (min-width: 900px) {
+  nav > ul > li:last-of-type {
+    margin-left: 4.4%;
+  }
+}
+@media screen and (min-width: 990px) {
+  nav > ul > li:last-of-type {
+    margin-left: 5.95%;
+  }
+  #bouton-nav .boutons {
+    left: 57rem;
+  }
+
+  #boite-about .source-pp {
+    position: relative;
+    left: 25rem;
+    top: -1rem;
+  }
+
+  #boite-about .para-about {
+    display: grid;
+    grid-template-columns: 20em 20em;
+    grid-template-rows: 20em 20em 20em;
+    gap: 1em 1em;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+
+    position: relative;
+    left: 0.9rem;
+    border-top: #6c3416 solid 0.9rem;
+    border-left: var(--five-color) solid 0.9rem;
+    border-bottom: var(--third-color) solid 0.9rem;
+    border-right: #eae5a6 solid 0.9rem;
+    background-color: #c2ab8e;
+  }
+  #boite-about .p1,
+  #boite-about .p2,
+  #boite-about .p3,
+  #boite-about .p4,
+  #boite-about .p5 {
+    position: static;
+    border: black solid 0.2rem;
+  }
+  #boite-about .p6 {
+    position: relative;
+    bottom: 8rem;
+  }
+  #boite-about {
+    height: 240rem;
+  }
+  #page-form form input,
+  #page-form form textarea,
+  #page-form select {
+    left: 0.2rem;
+    font-size: 1.3rem;
+  }
+  #page-form form label {
+    position: relative;
+    left: 0.2rem;
+    font-size: 1.3rem;
+  }
+  #page-form .bouton-form-effacer {
+    position: relative;
+    left: 49rem;
+  }
+  #page-form form input,
+  #page-form form select {
+    left: 9rem;
+  }
+  #page-form form .label {
+    left: 9rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header h1 {
+    font-size: 2em;
+  }
+  header .message-accueil-en {
+    display: block;
+    position: relative;
+    top: -2rem;
+    left: 50rem;
+  }
+  nav > ul > li:last-of-type {
+    position: absolute;
+    left: 5.6%;
+  }
+
+  #contenu {
+    display: block;
+    border: none;
+    width: 100%;
+
+    height: auto;
+
+    position: absolute;
+    top: 30rem;
+  }
+  #contenu h2 {
+    font-size: 1em;
+  }
+  #contenu .ville-capy-fr {
+    display: block;
+    text-align: center;
+  }
+  #contenu .ville-capy-en {
+    display: block;
+    text-align: center;
+  }
+  #contenu .fr-lang {
+    bottom: -1rem;
+    left: 2rem;
+  }
+  #contenu .en-lang {
+    bottom: 1rem;
+    left: 65rem;
+  }
+  #contenu img {
+    max-width: 70rem;
+    max-height: 90rem;
+    position: relative;
+    left: 9em;
+  }
+  #contenu figure {
+    position: relative;
+    left: 10rem;
+  }
+  #carrousel-interet .item h3,
+  #carrousel-interet .item h4 {
+    text-align: center;
+    padding: 2rem;
+  }
+  #carrousel-interet {
+    padding: 3rem;
+  }
+  #carrousel-interet .item {
+    padding: 6rem;
+  }
+
+  #carrousel-interet .item p {
+    width: 100%;
+    padding: 1rem;
+  }
+  #carrousel-interet .mejs__container {
+    padding: 1rem;
+    left: 3%;
+  }
+  #carrousel-interet .item #infozoo,
+  #carrousel-interet .item #infoaqua,
+  #carrousel-interet .item #infoart {
+    width: 100%;
+    padding: 1rem;
+  }
+  #carrousel-interet .item img {
+    margin-left: 3%;
+  }
+  #bouton-nav .boutons {
+    left: 70rem;
+  }
+  #boite-about .p1,
+  #boite-about .p2,
+  #boite-about .p3,
+  #boite-about .p4,
+  #boite-about .p5 {
+    position: static;
+    border: black solid 0.2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 20rem;
+  }
+  #boite-about .p3 {
+    height: 9.5rem;
+  }
+  #boite-about .p6 {
+    position: relative;
+    bottom: 6rem;
+    text-align: center;
+  }
+  #boite-about .ul-about {
+    display: inline-block;
+    text-align: left;
+  }
+  #boite-about .l1t {
+    position: relative;
+    bottom: 4rem;
+  }
+  #boite-about figcaption {
+    position: relative;
+    top: 0.1rem;
+  }
+  #boite-about {
+    height: 270rem;
+  }
+  #boite-about .image-deco {
+    width: 38%;
+  }
+  #page-form .bouton-form-effacer {
+    position: relative;
+
+    left: 59.5rem;
+  }
+  #page-form form input,
+  #page-form form select {
+    left: 10rem;
+  }
+  #page-form form .label {
+    left: 10rem;
+  }
+  footer {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #contenu .fr-lang {
+    bottom: -0.61rem;
+    left: 35rem;
+  }
+  #contenu .en-lang {
+    left: 55rem;
+  }
+  nav > ul > li:last-of-type {
+    margin-left: 9%;
+  }
+  #page-form form input,
+  #page-form form select {
+    left: 11rem;
+  }
+  #boite-about h3,
+  h4 {
+    margin-left: 6rem;
+  }
+  #boite-about h4 {
+    position: relative;
+    top: 3rem;
+    left: 6rem;
+  }
+
+  #page-form form .label {
+    left: 11rem;
+  }
+  #page-form .bouton-form-effacer {
+    position: relative;
+
+    left: 74.5rem;
+  }
+
+  #carrousel-interet .item #infoart,
+  #carrousel-interet .item #infozoo,
+  #carrousel-interet .item #infoaqua {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    top: -7rem;
+  }
+
+  #bouton-nav .boutons {
+    left: 88rem;
+  }
+}
+@media screen and (min-width: 1900px) {
+  #contenu .fr-lang {
+    left: 48rem;
+  }
+  #contenu .en-lang {
+    left: 65rem;
+  }
+  nav > ul > li:last-of-type {
+    margin-left: 13.2%;
+  }
+  #bouton-nav .boutons {
+    left: 114rem;
+  }
+  #boite-about h4 {
+    position: relative;
+    top: 4rem;
+    left: 12rem;
+  }
+
+  #boite-about .p1,
+  #boite-about .p2,
+  #boite-about .p3,
+  #boite-about .p4,
+  #boite-about .p5 {
+    position: static;
+    border: black solid 0.2rem;
+    text-align: center;
+    font-size: 1.35rem;
+    height: 23rem;
+  }
+  #boite-about .p3 {
+    height: 8rem;
+  }
+  #boite-about .para-about {
+    left: 0.5rem;
+    gap: 7em 1em;
+  }
+  #page-form form input,
+  #page-form form select {
+    left: 12rem;
+  }
+  #page-form form .label {
+    left: 12rem;
+  }
+  #page-form .bouton-form-effacer {
+    position: relative;
+    left: 94rem;
+  }
+}
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#backToTopBtn i {
+  vertical-align: middle;
+}
+
+#backToTopBtn:hover {
+  background-color: #333;
+}

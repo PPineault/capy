@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--    auteur:Patrick Pineault
+description de la page: page a propos FR
+nom du fichier:a-propos.html
+juillet 2023
+-->
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta-données -->
+
+    <!-- Meta- description de la page -->
+
+    <meta name="description" content="a-propos-fr">
+    <!-- Meta- nom de l'auteur -->
+
+    <meta name="author" content="Patrick-Pineault">
+
+    <title>a-propos-Ville-capybaras-poilus</title>
+    <!--  lien css  à rajouter ici      -->
+    <link rel="stylesheet" href="../css/styles.css" media="screen">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/impression.css" media="print">
+    <script src="../js/scripts.js" defer></script>
+    <script src="../js/langue.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- logo:image et slogan     -->
+        <a href="a-propos.html"> <img src="../images/logo.png" alt="logo"> </a>
+        <h1 class="ville-capy-about"> Ville des capybaras poilus </h1>
+        <p class="slogan-fr-apropos">Toujours bien poilu ici!</p>
+
+        <h2 class="a-propos">À propos</h2>
+
+        <!-- menu de navigation   -->
+        <nav id="menu-navigation">
+            <ul>
+                <li> <a href="a-propos.html"> <span class="boutonmenu"> accueil </span> </a> </li>
+                <li> <a href="index.html"><span class="boutonmenu"> Point d'intérêt </span></a> </li>
+                <li><a href="suggerer-lieu.html"><span class="boutonmenu">Suggéer un lieu</span></a> </li>
+                <li> <a href="#" lang="en" title="English version" id="alt-linguistique" data-location-id="a-propos">
+                        English </a>
+                </li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+    <!-- contenu principal   -->
+    <main id="boite-about">
+
+
+        <!-- image deco capybara  -->
+        <figure>
+            <img class="image-deco" src="../images/interface/capy-acceuil-petit-version.jpg" alt="">
+            <figcaption>Source: CC BY 2.0
+                <a href="https://flic.kr/p/2oefXct" target="_blank">
+                    Chad Davis</a>.
+            </figcaption>
+        </figure>
+        <h3>
+            À propos du site web </h3>
+        <h4> une phote de moi </h4>
+        <figure>
+            <img class="image-face" src="../images/interface/moi.jpg" alt="photo-patrick-pineault">
+            <figcaption class="source-pp">Source: © Tous droits réservés Patrick Pineault
+
+            </figcaption>
+        </figure>
+
+        <p class="para-about">
+            <span class="p1">Bonjour, je m’appelle <span class="mon-nom">Patrick Pineault </span> et j’ai 21 ans. En
+                plus, je suis le créateur de ce
+                site web si vous
+                voulez savoir à quoi je ressemble regardez au-dessus de ce paragraphe c’est une photo de moi.</span>
+            <span class="p2">
+                Ce site est un circuit touristique de différents points d’intérêts sur un lieu que j’ai décidé
+                d’inventer du
+                nom de Ville des capybaras poilus. Les raisons pour lesquelles j’ai décidé de choisir ce fameux c’est
+                parce
+                que je me suis inspiré de l’algorithme quand je consulte mon Instagram. J’y consulte beaucoup de photos
+                et
+                de vidéos sur les capybaras </span>
+            <span class="p3">
+                Dans les phrases suivantes, je vais vous expliquer mes inspirations pour les trois lieux qui sont
+                présentés
+                dans la page point d’intérêt. </span>
+            <span class="p4">
+                Pour Capyzoo : C’est le Parc Omega à Montebello, zoo de Granby à Granby, et le Parc Safari à
+                Hemmingford.
+                Pour Capyaqua : C’est le Bora Parc à Valcartier et le Super-Aqua Club à Pointe-Calumet. Pour Capyart :
+                C’est
+                le musée du Domaine à Pohénégamook, (il n’existe plus aujourd’hui). </span>
+            <span class="p5">
+                Pour les photos dans le carrousel, j’ai demandé à mon père d’être le concepteur et le photographe pour
+                les
+                photos, puisqu’il est passionné de photographie et il connaît bien le logiciel PaintShop Pro. </span>
+
+
+
+
+
+            <!-- traduit en anglais par chatGPT    -->
+        </p>
+        <div class="p6">
+            <ul class="liste">
+
+                <li class="l1">
+                    <span class="l1t">les règles de mise en forme CSS3:</span>
+                    <ul class="ul-about">
+                        <li>multicolonne</li>
+                        <li>flex</li>
+                        <li>polices téléchargeables</li>
+                        <li>coins arrondis</li>
+                        <li> transitions </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+        © Tous droits réservés 2023 <span lang="en">Copyright 2023</span> , : Ville
+        des capybaras poilus
+        <span lang="en">Town of hairy capybaras </span> , Patrick Pineault
+        <!-- button courriel  -->
+        <!-- button courriel  -->
+        <a href="mailto:patrick.pineault.siteweb@outlook.com"> courriel </a>
+
+    </footer>
+    <button id="backToTopBtn" title="Remonter en haut">
+        <i class="fas fa-arrow-up"></i> </button>
+</body>
+
+</html>

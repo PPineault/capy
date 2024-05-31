@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--    auteur:Patrick Pineault
+description de la page: suggerer un lieu EN
+nom du fichier:a-propos.html
+juillet 2023
+-->
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Meta-données -->
+
+    <!-- Meta- description de la page -->
+
+    <meta name="description" content="suggerrer-ieur-fr">
+    <!-- Meta- nom de l'auteur -->
+
+    <meta name="author" content="Patrick-Pineault">
+
+    <title>sugerrer-lieu-Ville-capybaras-poilus</title>
+    <!--  lien css  à rajouter ici      -->
+    <link rel="stylesheet" href="../css/styles.css" media="screen">
+    <link rel="stylesheet" href="../css/impression.css" media="print">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="../js/scripts.js" defer></script>
+    <script src="../js/form.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- logo:image et slogan     -->
+        <a href="suggerer-lieu.html"> <img class="logo" src="../images/logo.png" alt="logo"> </a>
+        <h1 class="ville-capy-sug"> Ville des capybaras poilus </h1>
+        <p class="slogan-fr-sug">Toujours bien poilu ici!</p>
+
+        <h2 class="suggerer-lieufr"> suggérer un lieu </h2>
+
+        <!-- menu de navigation   -->
+
+        <nav id="menu-navigation">
+            <ul>
+                <li> <a href="suggerer-lieu.html"> <span class="boutonmenu"> accueil </span> </a> </li>
+                <li> <a href="index.html"><span class="boutonmenu"> Point d'intérêt </span></a> </li>
+                <li><a href="a-propos.html"><span class="boutonmenu">À propos</span></a> </li>
+                <li> <a href="#" lang="en" title="English version" id="alt-linguistique"
+                        data-location-id="suggerer-lieu"> English </a> </li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <!-- contenu principal   -->
+    <main id="page-form">
+
+        <div id="deco-avant-form">
+            <!-- image deco capybara  -->
+            <figure>
+                <img class="image-deco" src="../images/interface/capy-acceuil-petit-version.jpg" alt="">
+                <figcaption>Source: CC BY 2.0
+                    <a href="https://flic.kr/p/2oefXct" target="_blank">
+                        Chad Davis</a>.
+                </figcaption>
+            </figure>
+
+        </div>
+        <div id="formulaire">
+            <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+                <p>
+                    <label for="titre" class="label">Titre</label>
+                    <input type="text" name="titre" size="72" id="titre" required>
+                </p>
+                <p>
+                    <label for="accroche"> Accroche </label>
+                    <textarea name="accroche" id="accroche" cols="72" rows="3" required></textarea>
+                </p>
+                <p>
+                    <label for="description"> Description </label>
+                    <textarea name="description" id="description" cols="72" rows="10" required></textarea>
+                </p>
+                <p>
+                    <label for="image" class="label">Image</label>
+                    <input type="file" name="image" id="image" capture="environment" accept="image/*" class="type-file">
+
+                </p>
+                <p>
+                    <!--  clip snore android sauf cell samsung télécharger dictaphone(une bonne application pas tout fonctionne) et mettre 
+                capture="user" parce que juste capture comme sur différent siteweb ça fais une erreur HTML  -->
+                    <label for="clip-sonore" class="label">Clip sonore </label>
+
+                    <input type="file" name="clip-sonore" id="clip-sonore" capture="user" accept="audio/*"
+                        class="type-file">
+                </p>
+                <p>
+                    <label for="langue" class=" label">Langue</label>
+                    <select name="langue" id="langue" class="type-file" required>
+                        <option value="" selected="selected">Choisir une langue </option>
+                        <option value="fr"> Français</option>
+                        <option value="en"> English</option>
+
+
+                    </select>
+                </p>
+                <p>
+                    <label for="courriel" class=" label">Courriel</label>
+                    <input type="email" name="courriel" id="courriel" required>
+                </p>
+                <p>
+                    <input type="submit" value="Envoyer" class="bouton-form-envoyer">
+                    <input type="reset" value="Effacer" class="bouton-form-effacer">
+                </p>
+            </form>
+
+        </div>
+
+    </main>
+    <footer>
+        © Tous droits réservés 2023 <span lang="en">Copyright 2023</span> , : Ville
+        des capybaras poilus
+        <span lang="en">Town of hairy capybaras </span> , Patrick Pineault
+        <!-- button courriel  -->
+        <!-- button courriel  -->
+        <a href="mailto:patrick.pineault.siteweb@outlook.com"> courriel </a>
+
+    </footer>
+    <button id="backToTopBtn" title="Remonter en haut">
+        <i class="fas fa-arrow-up"></i> </button>
+</body>
+
+</html>

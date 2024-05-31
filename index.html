@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+auteur:Patrick Pineault
+description de la page:home-page-page-acceuil-change-langue
+nom du fichier:index.html
+juillet 2023
+
+-->
+<html lang="fr">
+
+<head>
+    <!-- Pour le support des caractères accentués -->
+    <meta charset="UTF-8">
+    <!-- Pour la portabilité - "Responsive Web Design" -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Meta-données -->
+
+    <!-- Meta- description de la page -->
+    <meta name="description" content="home-page-page-accueil">
+    <!-- Meta- nom de l'auteur -->
+    <meta name="author" content="Patrick-Pineault">
+
+    <title> Ville-capybaras-poilus
+       Town of hairy capybaras 
+    </title>
+    <!--  lien css  à rajouter ici      -->
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="css/impression.css" media="print">
+    <script src="js/scripts.js">   </script>
+    <script src="js/choixlang.js"></script>
+
+ 
+
+</head>
+
+<body>
+    <!-- en-tête -->
+    <header>
+        <!-- logo:image et slogan     -->
+        <img src="images/logo.png" alt="logo">
+        <h1> <span class="message-accueil-fr">Bienvenue!</span>
+             <span class="message-accueil-en" lang="en"> Welcome!   </span> 
+        </h1>
+        <p class="slogan-fr">Toujours bien poilu ici!</p>
+        <p class="slogan-en"> <span lang="en"> Always hairy here! </span>    </p>
+        <!-- message accueil fr et en     -->
+      
+    </header>
+    <!-- contenu principal   -->
+    <main id="contenu">
+        <!--    section pour changer de langue       -->
+
+            <h2 > <span class="ville-capy-fr">     ville des capybaras poilus </span> 
+                <span class="ville-capy-en" lang="en">Town of hairy capybaras </span>
+            </h2>
+            <!-- image deco capybara  -->
+            <figure>
+                <img class="image-deco" src="images/interface/capy-acceuil-petit-version.jpg" alt="">
+                <figcaption>Source: CC BY 2.0
+                    <a href="https://flic.kr/p/2oefXct" target="_blank">
+                        Chad Davis</a>.
+                </figcaption>
+            </figure>
+            <!--    bouton Fr/EN       -->
+         <a href="#" class="fr-lang" lang="fr" title=" version fr" id="alt-linguistique" data-location-id="page-principale2">   Français       </a>   
+     
+         <a href="#" lang="en" title="English version" id="English"  data-location-id="page-principale1" class="en-lang"  > <span    class="en2">  English        </span>    </a> 
+       
+  
+          
+    </main>
+
+
+ 
+
+    <footer>
+        <!-- droit résevé  -->
+      © Tous droits réservés 2023 <span  lang="en">Copyright 2023 </span> , : Ville
+            des capybaras poilus
+            <span  lang="en"> Town of hairy capybaras </span> , Patrick Pineault 
+        <!-- button courriel  -->
+        <a  href="mailto:patrick.pineault.siteweb@outlook.com">   courriel /
+            <span lang="en">email</span>             </a> 
+           
+    </footer>
+</body>
+
+</html>

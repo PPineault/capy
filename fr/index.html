@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--    auteur:Patrick Pineault
+description de la page: page principal fr-point-intérêt
+nom du fichier:index.html
+juillet 2023
+-->
+
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Meta-données -->
+
+    <!-- Meta- description de la page -->
+
+    <meta name="description" content="page-principal-fr-point-interet">
+    <!-- Meta- nom de l'auteur -->
+
+    <meta name="author" content="Patrick-Pineault">
+
+    <title>Point-intérêt-Ville-capybaras-poilus</title>
+    <!--  lien css  à rajouter ici      -->
+    <link rel="stylesheet" href="../css/styles.css" media="screen">
+    <link rel="stylesheet" href="../css/boutoncacher.css">
+    <link rel="stylesheet" href="../css/impression.css" media="print">
+
+    <!--<link rel="stylesheet" href="../node_modules/mediaelement/build/mediaelementplayer.min.css">-->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+    <!--          <script src="../node_modules/mediaelement/build/mediaelement-and-player.min.js" defer></script>              -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
+
+    <script src="../js/scripts.js" defer>   </script>
+    <script src="../js/carrousel.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <!-- logo:image et slogan     -->
+        <a href="index.html"> <img src="../images/logo.png" alt="logo"> </a>
+        <h1 class="ville-capy"> Ville des capybaras poilus </h1>
+        <p class="slogan-fr-point">Toujours bien poilu ici!</p>
+
+        <h2 class="points-interets">Les points d'intérêts</h2>
+
+
+        <!-- menu de navigation   -->
+        <nav>
+            <ul>
+                <li> <a href="index.html"> accueil </a> </li>
+                <li> <a href="a-propos.html">À propos </a> </li>
+                <li><a href="suggerer-lieu.html">Suggéer un lieu </a>
+                </li>
+                <li> <a href="#" id="alt-linguistique" lang="en" title="English" data-location-id="page-principale">
+                        English </a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </header>
+    <!-- contenu principal   -->
+    <main>
+
+
+
+
+
+
+
+
+        <!-- section point d'intérêt     -->
+        <!--          fleche alt 174 et alt 175-->
+        <div id="bouton-nav">
+            <a href="#" rel="prev" title="précédent"> <span class="boutonp"> « </span> </a>
+            <a href="#" rel="next" title="suivant"> <span class="boutons"> » </span></a>
+
+        </div>
+        <div id="carrousel-interet">
+
+
+            <!--  capyzoo     -->
+            <!--  inspiration du point d'intérêt  1:  : zoo gramby ,parc safari, parc omega, un zoo à l'extérieur; avec plein de capypara domestique que se promenent dans le zoo sauf dans les enclos d'animaux trop dangereux pour cette espèce     -->
+            <div class="item">
+                <h3> Capyzoo </h3>
+
+                <!-- image capyzoo    -->
+                <figure>
+                    <img src="../images/capyzoo.jpg" alt="capyzoo-image">
+                    <figcaption>Source: © Tous droits réservés Ghislain Pineault
+
+                    </figcaption>
+                </figure>
+
+
+                <!-- texte d'accroche    -->
+                <p>Capyzoo est le plus beau zoo dans cette merveilleuse ville fictive et il autorise d’emporter votre
+                    capybara domestique avec vous.</p>
+
+                <audio src="../audio/capyzoo-fr.mp3" controls preload="auto"> </audio>
+
+
+                <div id="infozoo">
+                    <h4> Plus d'information sur Capyzoo </h4>
+                    <span id="avantzoo"></span>
+
+                    <!-- description     -->
+                    <p id="morezoo" class="p-desc">
+                        Capyzoo est le plus beau zoo dans cette merveilleuse ville fictive,
+                        niché au cœur
+                        d'une végétation luxuriante et colorée, c’est un véritable paradis pour les amoureux des
+                        animaux.
+                        <!-- création de contenu assistée par chatGPT -->
+
+                        Vous pouvez apercevoir, des loups, des ours, des girafes, des éléphants, des singes, toute sorte
+                        d’espèces d’oiseaux et plein d’autres animaux. En plus, dans ce zoo vous pouvez retrouver des
+                        capybaras domestiques qui appartiennent au zoo et se promènent à l’extérieur des cages et vous
+                        avez
+                        le droit d’apporter votre propre capybara lorsque vous faites la visite. Le zoo est ouvert tous
+                        les
+                        jours de 6h00 à 22h00 pendant toute l'année.
+                    </p>
+                    <button onclick="plusinfozoo()" id="Btnzoo">Montrer les détails</button>
+
+
+                </div>
+
+
+
+            </div>
+            <!--capyaqua -->
+            <!--    inspiration du 2e point intérêt: super  aqua club, bora parc; avec plein de capypara domestique que se promenent dans le parc aquatique  -->
+            <div class="item">
+                <h3> Capyaqua </h3>
+
+                <!-- image capyaqua    -->
+                <figure>
+                    <img src="../images/capyaqua.jpg" alt="capyaqua-image">
+                    <figcaption>Source: © Tous droits réservés Ghislain Pineault
+
+                    </figcaption>
+                </figure>
+
+                <!-- texte d'accroche    -->
+                <p> Capyaqua est le meilleur parc aquatique de cette magnifique ville fictive et il autorise d’emporter
+                    votre capybara domestique avec vous. </p>
+                <!-- clip audio     -->
+
+                <audio src="../audio/capyaqua-fr.mp3" controls preload="auto"> </audio>
+
+
+                <div id="infoaqua">
+                    <h4> Plus d'information sur Capyaqua </h4>
+                    <span id="avantaqua"></span>
+                    <!-- description     -->
+                    <p id="moreaqua" class="p-desc">Capyaqua est le meilleur parc aquatique de cette magnifique ville
+                        fictive, offrant
+                        des
+                        toboggans palpitants, des piscines à vagues apaisantes et de rivières tranquilles, le parc
+                        propose
+                        une expérience aquatique inégalée pour les petits et les grands. Ce qui rend Capyaqua vraiment
+                        unique, c'est qu'il autorise fièrement les visiteurs à amener leur capybara domestique avec eux
+                        pour
+                        profiter pleinement de l'aventure aquatique. Des zones spéciales et sécurisées sont aménagées
+                        pour
+                        que ces adorables rongeurs puissent se joindre aux joies de l'eau.
+                        <!-- création de contenu assistée par chatGPT --> Le parc aquatique est ouvert tous les jours de
+                        8h00 à 22h00 du 31 mai jusqu’au 30 septembre.
+                    </p>
+                    <button onclick="plusinfoaqua()" id="Btnaqua">Montrer les détails</button>
+                </div>
+
+
+            </div>
+            <!--  capyart -->
+            <!--     inspiration du 3e point intérêt: musé des beaux-arts montréal, musé du louvre , musée pointe à callière; avec plein de capypara domestique que se promenent dans le musé -->
+            <div class="item">
+                <h3>Capyart</h3>
+
+
+                <!-- image capyart    -->
+                <figure>
+                    <img src="../images/capyart.jpg" alt="capyart-image">
+                    <figcaption>Source: © Tous droits réservés Ghislain Pineault
+
+                    </figcaption>
+
+                </figure>
+
+                <!-- texte d'accroche    -->
+                <p>Capyart est un excellent musée de Voitures antiques de cette ville et il autorise d’emporter votre
+                    capybara domestique avec vous.</p>
+                <!-- clip audio     -->
+
+                <audio src="../audio/capyart-fr.mp3" controls preload="auto"> </audio>
+
+
+                <div id="infoart">
+                    <h4> Plus d'information sur Capyart </h4>
+                    <span id="avantart"></span>
+
+                    <!-- description     -->
+                    <p id="moreart" class="p-desc">Capyart est un excellent musée de Voitures antiques de cette ville,
+                        transportant
+                        ses
+                        visiteurs dans le temps avec une collection remarquable de véhicules historiques parfaitement
+                        préservés. Des modèles emblématiques du passé, aux designs élégants et raffinés, sont exposés
+                        avec
+                        soin dans des salles thématiques captivantes. Ce qui rend l'expérience au Capyart encore plus
+                        spéciale, c'est qu'il permet aux passionnés de capybaras d'explorer le musée en compagnie de
+                        leur
+                        adorable rongeur. De plus, ce magnifique musée propose également des expositions interactives
+                        sur
+                        l'évolution de l'industrie automobile. <!-- création de contenu assistée par chatGPT -->
+                        Le musée est ouvert tous les jours de 9h00 à 20h00 pendant toute l'année.
+                    </p>
+                    <button onclick="plusinfoart()" id="Btnart">Montrer les détails</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <footer>
+        © Tous droits réservés 2023 <span lang="en">Copyright 2023</span> , : Ville
+        des capybaras poilus
+        <span lang="en">Town of hairy capybaras </span> , Patrick Pineault
+
+        <!-- button courriel  -->
+        <a href="mailto:patrick.pineault.siteweb@outlook.com"> courriel </a>
+
+    </footer>
+    <button id="backToTopBtn" title="Remonter en haut">
+        <i class="fas fa-arrow-up"></i> </button>
+
+</body>
+
+</html>

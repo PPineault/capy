@@ -1,0 +1,110 @@
+@page { size: letter portrait }
+* {
+  box-shadow: none;
+  text-shadow: none;
+  background: transparent;
+}
+html {
+  font: 400 100%/150% Helvetica, Arial, sans-serif;
+}
+
+nav,
+.bouton-plusinfo,
+.boutonp,
+.boutons,
+footer,
+.bouton-moins-info,
+.mejs__container {
+  display: none;
+}
+#bouton-nav {
+  display: none;
+}
+#morezoo,
+#moreaqua,
+#moreart
+  {
+    display: block;
+  }
+  #morezooen,
+  #moreaquaen,
+  #morearten{
+    display: block !important;
+  }
+#Btnzooen,
+#Btnaquaen,
+#Btnarten{
+  display: none;
+}
+
+#Btnzoo,
+#Btnaqua,
+#Btnart
+{
+  display: none;
+}
+#myBtn{
+  display: none !important;
+}
+audio {
+  display: none;
+}
+body {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  float: none;
+  color: black;
+
+  font-size: 1rem;
+}
+
+header {
+  display: block;
+
+}
+header img {
+  filter: grayscale(1);
+  display: block;
+  margin: auto;
+}
+header h2,
+header h1,
+header .slogan-en-point,
+header .slogan-fr-point {
+  text-align: center;
+}
+
+.item {
+  display: block !important;
+  visibility: visible !important;
+  position: static !important;
+  page-break-after: always;
+}
+figure figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.item img {
+  display: block;
+
+  filter: grayscale(0.5);
+  height: 10rem;
+  width: auto;
+  margin: auto;
+}
+.item figcaption {
+  font-size: 0.5rem;
+  text-align: center;
+}
+.item h3,
+.item h4 {
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+.item p {
+  display: block;
+}

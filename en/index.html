@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--    auteur:Patrick Pineault
+description de la page: main page en-Points of Interest 
+nom du fichier:index.html
+juillet 2023
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Meta-données -->
+
+    <!-- Meta- description de la page -->
+
+    <meta name="description" content="main-page-english-Points-of-Interest ">
+    <!-- Meta- nom de l'auteur -->
+
+    <meta name="author" content="Patrick-Pineault">
+
+    <title>Points-of-Interest-Town-of-hairy-capybaras </title>
+    <!--  lien css  à rajouter ici      -->
+    <link rel="stylesheet" href="../css/styles.css" media="screen">
+    <link rel="stylesheet" href="../css/impression.css" media="print">
+    <link rel="stylesheet" href="../css/boutoncacher.css">
+    <link rel="stylesheet" href="../node_modules/mediaelement/build/mediaelementplayer.min.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery-cycle2/build/jquery.cycle2.min.js"></script>
+    <script src="../node_modules/mediaelement/build/mediaelement-and-player.min.js"></script>
+    <script src="../js/scripts.js" defer>   </script>
+    <script src="../js/carrousel.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- logo:image et slogan     -->
+        <a href="index.html"> <img class="logo" src="../images/logo.png" alt="logo"> </a>
+        <h1 class="ville-capy-en"> Town of hairy capybaras </h1>
+        <p class="slogan-en-point">Always hairy here!</p>
+
+        <h2 class="points-interets">Points of Interest </h2>
+
+        <!-- menu de navigation   -->
+
+        <nav>
+            <ul>
+                <li> <a href="index.html"> <span class="boutonmenu"> home </span> </a> </li>
+                <li> <a href="about-us.html"><span class="boutonmenu">about-us </span></a> </li>
+                <li><a href="suggest-location.html"><span class="boutonmenu">Suggest location</span></a> </li>
+                <li> <a href="#" id="alt-linguistique" lang="fr" title=" version fr" data-location-id="page-principale">
+                        <span class="langue-bouton"> Français </span> </a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+
+    </header>
+    <!-- contenu principal   -->
+    <main>
+
+
+        <!-- section point d'intérêt     -->
+        <!--          fleche alt 174 et alt 175-->
+        <div id="bouton-nav">
+            <a href="#" rel="prev" title="prev"> <span class="boutonp"> « </span> </a>
+            <a href="#" rel="next" title="next"> <span class="boutons"> » </span></a>
+        </div>
+        <div id="carrousel-interet">
+
+            <!--  capyzoo    -->
+            <div class="item">
+                <h3> Capyzoo </h3>
+
+                <!-- image capyzoo    -->
+                <figure>
+                    <img src="../images/capyzoo.jpg" alt="capyzoo-image">
+                    <figcaption>Source: © Copyright Ghislain Pineault
+
+                    </figcaption>
+                </figure>
+
+
+                <!-- texte d'accroche    -->
+                <p>Capyzoo is the most beautiful zoo in this wonderful fictional city, and it allows you to bring your
+                    domestic capybara.</p>
+                <!-- traduit par chatGPT    -->
+                <audio src="../audio/capyzoo.mp3" controls preload="auto"> </audio>
+
+                <div id="infozoo">
+                    <h4>More information on Capyzoo</h4>
+                    <span id="avantzooen"></span>
+
+                    <!-- description     -->
+                    <p id="morezooen" class="p-desc">Capyzoo is the most beautiful zoo in this wonderful fictional city,
+                        nestled in the
+                        heart of lush and colorful vegetation, a true paradise for animal lovers.
+                        <!-- création de contenu assistée par chatGPT --> You can spot wolves,
+                        bears, giraffes, elephants, monkeys, various bird species, and many other animals. Additionally,
+                        the
+                        zoo features domestic capybaras that belong to the zoo and roam freely outside the enclosures.
+                        Visitors are allowed to bring their own capybara during the tour. The zoo is open daily from
+                        6:00 AM
+                        to 10:00 PM, all year round.
+                    </p>
+                    <button onclick="plusinfozooen()" id="Btnzooen">Show details</button>
+                </div>
+
+
+
+            </div>
+            <!--  capyaqua    -->
+            <div class="item">
+                <h3> Capyaqua </h3>
+
+                <!-- image capyaqua    -->
+                <figure>
+                    <img src="../images/capyaqua.jpg" alt="capyaqua-image">
+                    <figcaption>Source: © Copyright Ghislain Pineault
+
+                    </figcaption>
+                </figure>
+
+                <!-- texte d'accroche    -->
+                <p>Capyaqua is the finest water park in this lovely fictional city, and it allows you to bring your
+                    domestic capybara.<!-- traduit par chatGPT    --></p>
+                <audio src="../audio/capyaqua.mp3" controls preload="auto"> </audio>
+
+
+                <div id="infoaqua">
+                    <h4>More information on Capyaqua</h4>
+                    <span id="avantaquaen"></span>
+
+                    <!-- description     -->
+                    <p id="moreaquaen" class="p-desc">
+                        Capyaqua is the finest water park in this lovely fictional city, with thrilling slides, soothing
+                        wave pools, and tranquil rivers. It offers an unmatched aquatic experience for all ages. What
+                        truly
+                        sets Capyaqua apart is its proud policy of allowing visitors to bring their domestic capybara
+                        along
+                        for the water adventure. Special secure areas are provided for these adorable rodents to enjoy
+                        the
+                        water fun. <!-- création de contenu assistée par chatGPT --> The water park is open daily from
+                        8:00
+                        AM to 10:00 PM, from May 31st until September
+                        30th.
+                    </p>
+                    <button onclick="plusinfoaquaen()" id="Btnaquaen">Show details</button>
+
+                </div>
+
+
+
+            </div>
+            <!--  capyart    -->
+            <div class="item">
+                <h3>Capyart</h3>
+
+                <!-- image capyart    -->
+                <figure>
+                    <img src="../images/capyart.jpg" alt="capyart-image">
+                    <figcaption>Source: © Copyright Ghislain Pineault
+
+                    </figcaption>
+                </figure>
+
+                <!-- texte d'accroche    -->
+                <p>Capyart is a great antique car museum in this city, and it allows you to bring your domestic
+                    capybara.<!-- traduit par chatGPT    --> </p>
+                <audio src="../audio/capyart.mp3" controls preload="auto"> </audio>
+
+
+                <div id="infoart">
+                    <h4>More information on Capyart</h4>
+                    <span id="avantarten"></span>
+
+                    <!-- description     -->
+                    <p id="morearten" class="p-desc">
+                        Capyart is an excellent antique car museum, transporting visitors back in time with a remarkable
+                        collection of well-preserved historic vehicles. Iconic models from the past, with elegant and
+                        refined designs, are carefully displayed in captivating themed rooms. What makes the Capyart
+                        experience even more special is that it allows capybara enthusiasts to explore the museum with
+                        their
+                        adorable rodent. Additionally, this wonderful museum offers interactive exhibits on the
+                        evolution of
+                        the automotive industry. <!-- création de contenu assistée par chatGPT -->The museum is open
+                        daily
+                        from 9:00 AM to 8:00 PM, all year round.
+                    </p>
+                    <button onclick="plusinfoarten()" id="Btnarten">Show details</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </main>
+    <footer>
+
+        <span lang="fr"> © Tous droits réservés 2023 </span> Copyright 2023, : <span lang="fr">Ville des capybaras
+            poilus </span>
+        Town of hairy capybaras, Patrick Pineault
+        <!-- button courriel  -->
+        <!-- button courriel  -->
+        <a href="mailto:patrick.pineault.siteweb@outlook.com"> email </a>
+    </footer>
+    <button id="backToTopBtn" title="Remonter en haut">
+        <i class="fas fa-arrow-up"></i> </button>
+</body>
+
+</html>
